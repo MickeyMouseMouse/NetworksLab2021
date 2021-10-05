@@ -12,7 +12,7 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 Теперь можно из веб-браузера обращаться по адресу localhost:8080 к удаленному серверу на его порт 46090 (это будет работать, пока активна текущая ssh сессия).  
 
 Чтобы каждый раз при подключении по SSH не вводить пароль, существует более удобный и безопасный способ авторизации по ключам. Для этого используются пары ключей (публичный-приватный) асимметричного алгоритма шифрования RSA.  
-Сгенерировать новую пару ключей: ssh-keygen
+Сгенерировать новую пару ключей: ssh-keygen  
 После генерации ключей необходимо скопировать содержимое файла с публичным ключом на сервер в файл ~/.ssh/authorized_keys.  
 
 **Client url (curl)** - сетевая утилита, реализующая базовые возможности работы с URL страницами и передачу файлов; поддерживает большое количество протоколов (например, HTTP, HTTPS, FTP, POP3, IMAP, SMTP и прочие).  
@@ -51,6 +51,7 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task3_3.PNG "")
 
 **Задание 4**  
+Анализ трафика в Wireshark:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_1.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_2.PNG "")
