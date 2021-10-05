@@ -11,7 +11,7 @@
 ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress  
 Теперь можно из веб-браузера обращаться по адресу localhost:8080 к удаленному серверу на его порт 46090 (это будет работать, пока активна текущая ssh сессия).  
 
-Чтобы каждый раз при подключении по SSH не вводить пароль, существует более удобный и безопасный способ авторизации по ключам. Для этого используются пары ключей (публичный-приватный) асимметричного алгоритма шифрования RSA.  
+Чтобы каждый раз при подключении по SSH не вводить пароль, существует более удобный и безопасный **способ авторизации по ключам.** Для этого используются пары ключей (публичный-приватный) асимметричного алгоритма шифрования RSA.  
 Сгенерировать новую пару ключей: ssh-keygen  
 После генерации ключей необходимо скопировать содержимое файла с публичным ключом на сервер в файл ~/.ssh/authorized_keys.  
 
@@ -22,24 +22,25 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 
 **Задание 1**  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_1.PNG "")
-
+Загружаем файл с сервера:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_2.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_3.PNG "")
 
 **Задание 2**  
+Скачиваем файл из Интернета на сервер:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_1.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_2.PNG "")
-
+Пробрасываем порт:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_3.PNG "")
-
+Подключаемся к удаленному серверу через локальный порт:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_4.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_5.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_6.PNG "")
-
+Загружаем файл на сервер:
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_7.PNG "")
 
 **Задание 3**  
