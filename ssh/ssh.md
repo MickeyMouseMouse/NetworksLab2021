@@ -22,47 +22,48 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 
 **Задание 1**  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_1.PNG "")
-Загружаем файл с сервера:
+Загружаем файл с сервера:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_2.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task1_3.PNG "")
 
 **Задание 2**  
-Скачиваем файл из Интернета на сервер:
+Скачиваем файл из Интернета на сервер:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_1.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_2.PNG "")
-Пробрасываем порт:
+Пробрасываем порт:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_3.PNG "")
-Подключаемся к удаленному серверу через локальный порт:
+Подключаемся к удаленному серверу через локальный порт:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_4.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_5.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_6.PNG "")
-Загружаем файл на сервер:
+Загружаем файл на сервер:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_7.PNG "")
 
 **Задание 3**  
-Генерируем пару ключей:
+Генерируем пару ключей:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task3_1.PNG "")
-Копируем публичный ключ на сервер:
+Копируем публичный ключ на сервер:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task3_2.PNG "")
-Подключаемся к серверу по ключу без ввода пароля:
+Подключаемся к серверу по ключу без ввода пароля:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task3_3.PNG "")
 
 **Задание 4**  
-Анализ трафика в Wireshark:
+Анализ трафика в Wireshark  
+Фильтр: http  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_1.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_2.PNG "")
-
+Фильтр: tls  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_3.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_4.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_5.PNG "")
-
+Фильтр: dns  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_6.PNG "")
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_7.PNG "")
