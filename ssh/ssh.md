@@ -39,7 +39,7 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_5.PNG "")
 
-![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_6.PNG "")
+![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_6.PNG "")  
 Загружаем файл на сервер:  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task2_7.PNG "")
 
@@ -62,7 +62,8 @@ ssh -L 8080:localhost:46090 userName@domainNameOrIpAddress
 
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_4.PNG "")
 
-![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_5.PNG "")
+![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_5.PNG "")  
+В устаревших версиях протокола TLS адрес ресурса, к которому обращается пользователь, не шифровался, то есть злоумышленник мог его перехватить. Начиная с версии 1.3 (2018 г) адрес также передается в зишифрованном виде.
 Фильтр: dns  
 ![](https://raw.githubusercontent.com/MickeyMouseMouse/NetworksLab2021/ssh/ssh/images/task4_6.PNG "")
 
